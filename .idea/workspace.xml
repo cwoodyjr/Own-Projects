@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65fce9a4-7c4b-4a75-9993-68ccc2631953" name="Changes" comment="Calculator Programme that takes in an equation, splits the equation at the operand and returns the answer">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+    <list default="true" id="65fce9a4-7c4b-4a75-9993-68ccc2631953" name="Changes" comment="SumOfNumbers programme that takes a user input and uses a for loop to sum up to the user number and returns the answer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +53,8 @@
       <workItem from="1681381409406" duration="81000" />
       <workItem from="1681404403074" duration="672000" />
       <workItem from="1681417765351" duration="3982000" />
-      <workItem from="1681462197384" duration="940000" />
+      <workItem from="1681462197384" duration="1294000" />
+      <workItem from="1681466111185" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator Programme that takes in an equation, splits the equation at the operand and returns the answer">
       <created>1681421075402</created>
@@ -69,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681421075402</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Calculator Programme that takes in an equation, splits the equation at the operand and returns the answer">
+      <created>1681463354798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681463354798</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SumOfNumbers programme that takes a user input and uses a for loop to sum up to the user number and returns the answer">
+      <created>1681463461468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681463461468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calculator Programme that takes in an equation, splits the equation at the operand and returns the answer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator Programme that takes in an equation, splits the equation at the operand and returns the answer" />
+    <MESSAGE value="SumOfNumbers programme that takes a user input and uses a for loop to sum up to the user number and returns the answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="SumOfNumbers programme that takes a user input and uses a for loop to sum up to the user number and returns the answer" />
   </component>
 </project>
