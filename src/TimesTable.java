@@ -7,7 +7,7 @@ public class TimesTable {
         System.out.print("What times table do you require?: ");
         int timesTable = reader.nextInt();
 
-        for(int i = 0+1; i <= 12; i++){
+        for(int i = 1; i <= 12; i++){
             System.out.println(i + " x " + timesTable + " = " + (i*timesTable));
         }
     }
