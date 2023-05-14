@@ -10,8 +10,17 @@ public class JokeGenerator {
             if(answer.toLowerCase().equals("y")){
                 Random random = new Random();
                 int rand = random.nextInt(3)+1;
-                System.out.print(rand);
-                jokeA();
+                
+                    if(rand==1){
+                        jokeA();
+                    }else if(rand==2){
+                        jokeB();
+                    }else if(rand==3){
+                        jokeC();
+                    }else{
+                        System.out.println("That threw an invalid option");
+                    }
+
             }else if(answer.toLowerCase().equals("n")){
                 System.out.println("your BORING!!!");
             }else{
@@ -32,4 +41,20 @@ public class JokeGenerator {
                     System.out.print("Luke through the spyhole and you'll see!! ");
                 }
     }
+    public static void jokeB(){
+                try (Scanner reader = new Scanner(System.in)) {
+                    System.out.println("how does a tortoise call his friends?");
+                    System.out.println("press enter to see the answer...");
+                    reader.nextLine();
+                    System.out.println("USING A SHELLPHONE!!!");
+                    }
+    }
+    public static void jokeC(){
+                    try (Scanner reader = new Scanner(System.in)) {
+                    System.out.println("What is black and white and read all over?");
+                    System.out.println("press enter to see the answer...");
+                    reader.nextLine();
+                    System.out.println("A NEWSPAPER!!!");
+                    }
+                }
 }
