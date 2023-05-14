@@ -6,9 +6,10 @@ public class Calculator {
     public static void main(String[] args) {
 
         System.out.println("Enter an Equation: ");
-        Scanner scanner = new Scanner(System.in);
-        String equation = scanner.nextLine();
-        solveEquation(equation);
+        try (Scanner scanner = new Scanner(System.in)) {
+            String equation = scanner.nextLine();
+            solveEquation(equation);
+        }
     }
 
     public static void solveEquation(String equation) {
