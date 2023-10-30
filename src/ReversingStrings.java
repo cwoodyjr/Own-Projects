@@ -7,7 +7,11 @@ public class ReversingStrings {
         System.out.println();
         stringReverse("reverse this string");
         System.out.println();
-        stringWordReverse("reverse this string");
+        //stringWordReverse("reverse this string");
+        System.out.println();
+        stringReverse1("reversing this string");
+
+
 
 //        System.out.println("Enter a word to reverse: ");
 //        String string = scanner.nextLine();
@@ -31,13 +35,16 @@ public class ReversingStrings {
 //
         }
     }
+    
 
-    public static void stringWordReverse(String string) {
-        char[] arr = string.toCharArray();
-        for (int i = arr.length - 1; i >= 0; i--) {
-            System.out.print(arr[i]);
-//
+    public static void stringReverse1(String string) {
+        String[] arr = string.split("\\s");
+        String reverseWord="";
+        for (String string2 : arr) {
+            StringBuilder sb = new StringBuilder(string2);
+            sb.reverse();
+            reverseWord+=sb.toString()+" ";
         }
-
+        System.out.println(reverseWord);
     }
 }
